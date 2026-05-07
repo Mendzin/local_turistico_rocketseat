@@ -3,8 +3,11 @@
 }
 
 main{
-    width: 1120px;
+    width: 100%;
+    max-width: 1120px;
     margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box;
 }
 
 .headline {
@@ -17,7 +20,7 @@ main{
 } 
 
 #imgn{
-    width: 1120px;
+    width: 100%;
     height: 660px;
     border-radius: 28px;  
     width: 100%; 
